@@ -30,3 +30,13 @@ To-do list:
 * Submitting a document to skip supervisor skips supervisor
 * Add timing to skip supervisor and department head approval if they take too long
 ## Getting Started
+make sure you are using java 8
+make sure you have an AWS account
+git clone https://github.com/NGelezinis/TRMS.git
+change the application.conf file to be to your region
+set AWS_USER and AWS_PASS in driver configuration for your own account
+1. Opening a terminal inside our `src/main/resources` folder.
+2. `curl https://certs.secureserver.net/repository/sf-class2-root.crt -O`
+3. `openssl x509 -outform der -in sf-class2-root.crt -out temp_file.der`
+4. `keytool -import -alias cassandra -keystore cassandra_truststore.jks -file temp_file.der`
+5. for password use the password you have selected in the application.conf file
