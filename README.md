@@ -1,4 +1,4 @@
-# Employee Reimbursment System (ERS)
+# Tuition Reimbursment Management System (TRMS)
 
 ## Project Description
 
