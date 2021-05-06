@@ -39,4 +39,4 @@ set AWS_USER and AWS_PASS in driver configuration for your own account
 2. `curl https://certs.secureserver.net/repository/sf-class2-root.crt -O`
 3. `openssl x509 -outform der -in sf-class2-root.crt -out temp_file.der`
 4. `keytool -import -alias cassandra -keystore cassandra_truststore.jks -file temp_file.der`
-5. for password use the password you have selected in the application.conf file
+for password use the password you have selected in the application.conf file
