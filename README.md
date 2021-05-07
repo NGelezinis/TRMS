@@ -2,8 +2,7 @@
 
 ## Project Description
 
-A reimbursement system for a company's employees. Employees can request reimbursements and managers can approve or deny those requests.
-
+A reimbursement system for a company's employees. All employees can request reimbursements and their Supervisor, Department Head, and Benefits Coordinator take turns to approve the request or any of them can deny the request.
 ## Technologies Used
 
 * AWS
